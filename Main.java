@@ -10,9 +10,9 @@ public class Main {
     /**
      * Loops through array displaying section of parallel array if names[i] != null
      * @author Francesca Didomenico
-     * @param names  
-     * @param prices 
-     * @param stocks
+     * @param names Array containing names of the items
+     * @param prices Array containing the prices of the items
+     * @param stocks Array containing stock quantities for the items
      */
 
     public static void printInventory(String[] names, double[] prices, int[] stocks)
@@ -98,7 +98,7 @@ public class Main {
             }
 
             else if (input.equals("3")) {
-                System.out.println("Goodbye!");
+                System.out.println("Menu exited.");
                 break;
             }
         }
